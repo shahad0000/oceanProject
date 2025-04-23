@@ -1,0 +1,104 @@
+body {
+    padding-right: 4em;
+    background:  url("marineImg.png")  no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Noto Kufi Arabic", sans-serif;
+}
+nav {
+    position: sticky;
+    top: 0;
+}
+.nav-item {
+    list-style-type: none;
+    display: inline;
+    margin-left: 3em;
+}
+
+ a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-item > a:hover {
+    color: rgb(241, 227, 146);
+
+}
+
+.main-title {
+    font-size: 5em;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+#brief-description{
+    font-size: 1em;
+    font-weight: 1000;
+    width: 50%;
+    margin: 0;
+}
+
+#goals > p {
+    font-size: 3em;
+    font-weight: 1000;
+    width: 50%;
+    margin-bottom: 0;
+    margin-top: 1em;
+
+}
+#goals > ul > li {
+    font-size: 1em;
+    font-weight: 1000;
+    width: 50%;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(229, 233, 251);
+color: rgb(7, 20, 84);
+    text-align: center;
+    padding: 2em;
+    margin-left: 2em;
+}
+
+.creatureImg {
+    width: 18em;
+    height: 9em;
+}
+
+form {
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding: 3em;
+    border: 2px solid black;
+}
+
+input[name="name"], input[name="age"] {
+    width: 50%;
+}
+
+#submit-btn {
+    margin-top: 4em;
+    width: 11em;
+    height: 3em;
+    background-color: rgb(241, 227, 146);
+    border: 1px solid black;
+}
+
+#submit-btn:hover {
+    background-color: rgb(227, 203, 70);
+
+}
+
+textarea {
+    width: 50%;
+    height: 4em;
+}
