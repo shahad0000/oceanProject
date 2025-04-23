@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: url('image.png') no-repeat center center fixed;
+    background: url('theOcean.png') no-repeat center center fixed;
     background-size: cover;
     color: white;
     font-family: "Noto Kufi Arabic", sans-serif;
@@ -30,7 +30,7 @@ a:visited {
     text-decoration: none;
     color: aliceblue;
 }
-.nav-item > a:hover {
+.nav-item > a:hover, #external-link:hover {
     color: rgb(241, 227, 146);
 
 }
@@ -64,6 +64,9 @@ video {
     margin: 0;
     padding-right: 1em;
     font-size: 2em;
+    width: fit-content;
+    background-color: rgba(19, 48, 107, 0.3);
+
 }
 
 #goals {
@@ -113,4 +116,11 @@ input[name="name"], input[name="age"] {
 textarea {
     width: 50%;
     height: 4em;
+}
+
+ol{
+    padding-right: 4em;
+}
+#external-link {
+    padding: 2em;
 }
